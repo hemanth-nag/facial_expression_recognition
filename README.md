@@ -7,7 +7,7 @@ Recognize 7 distinct facial expressions real-time using keras and openCV
 
 --Run 'train_model.ipynb' file to build a CNN model and train it using the dataset. It also saves the model in model.json file and saves the weights in model_weights.h5 file.
 
---Run 'test_real_time.ipynb' file on your PC for real time expression recognition. The file uses my pre-trained weights by default saved in the saved_model directory. The pretrained weights give 70% accuracy on the training dataset and 60% accuracy on the test dataset(15 epochs). I recommend loading the saved weights and training the model firther for improved accuracy. 
+--Run 'test_real_time.ipynb' file on your PC for real time expression recognition. The file uses my pre-trained weights by default saved in the saved_model directory. The pretrained weights give 70% accuracy on the training dataset and 60% accuracy on the test dataset(15 epochs). I recommend loading the saved weights and training the model further for improved accuracy. 
 
 
 ## Sample Output:
