@@ -3,7 +3,7 @@ Recognize 7 distinct facial expressions real-time using keras and openCV
 
 ## Procedure to Execute:
 
---Unzip the dataset.zip file to the root directory of this project. 
+--Unzip the dataset.zip file to the root directory of this project. You can also download the dataset from here: '[fer2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)'
 
 --Run 'train_model.ipynb' file to build a CNN model and train it using the dataset. It also saves the model in model.json file and saves the weights in model_weights.h5 file.
 
@@ -16,41 +16,6 @@ Recognize 7 distinct facial expressions real-time using keras and openCV
 ## Accuracy and Loss while training:
 ![alt text](saved_model/graph.png)
 
-## Dataset:
-
-It contains the below given set of images for training and testing
-
-Train:
-
-3995 angry images
-
-436 disgust images
-
-4097 fear images
-
-7214 happy images
-
-4965 neutral images
-
-4830 sad images
-
-3171 surprise images
-
-Test:
-
-958 angry images
-
-111 disgust images
-
-1024 fear images
-
-1774 happy images
-
-1233 neutral images
-
-1247 sad images
-
-831 surprise images
 
 ## Accuracy Obtained for each Expression(percentage):
 
