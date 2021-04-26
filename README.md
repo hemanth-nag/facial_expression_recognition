@@ -1,10 +1,21 @@
 # facial_expression_recognition
 Recognize 7 distinct facial expressions real-time using keras and openCV
 
+## Procedure to Execute:
 
-# Procedure to Execute:
+--Unzip the dataset.zip file to the root directory of this project. 
 
---Unzip the dataset.zip file to the root directory of this project. It contains the below given set of images for training and testing
+--Run 'train_model.ipynb' file to build a CNN model and train it using the dataset. It also saves the model in model.json file and saves the weights in model_weights.h5 file.
+
+--Run 'test_real_time.ipynb' file on your PC for real time expression recognition. The file uses my pre-trained weights by default saved in the saved_model directory. 
+
+
+## Sample Output:
+![alt text](saved_model/output.gif)
+
+## Dataset:
+
+It contains the below given set of images for training and testing
 
 Train:
 
@@ -38,6 +49,3 @@ Test:
 
 831 surprise images
 
---
-# Sample Output:
-![alt text](saved_model/output.gif)
